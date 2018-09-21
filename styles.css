@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background: #000000;
+    color: white;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border: solid white;
+}
+#backgroundCanvas {
+    background: #000000;
+}
+
+/* Create two equal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 45%;
+}
+
+/* Right column */
+.rightcolumn {
+    position: relative;
+    border: thin black;
+    float: right;
+    width: 45%;
+}
+
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#loser {
+    border: solid green;
+    visibility: hidden;
+}

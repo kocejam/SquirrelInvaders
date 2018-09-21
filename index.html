@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Squirrel Invaders</title>
+    <meta name="author" content="Michael Koceja (mdk4)">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="leftcolumn">
+    <canvas id="backgroundCanvas"></canvas>
+    <canvas id="mainCanvas"></canvas>
+    <canvas id="playerCanvas"></canvas>
+</div>
+<div class="rightcolumn">
+    <p id="intro" class="unselectable">
+        Help! Rice University has been overrun by squirrels! It was only a matter of time.
+        You need to help save the campus and shoot these hotdogs that you stole from the servery at the
+        hungry squirrels so that they'll go away!<br>
+        Instructions: Use the mouse to move the player left to right, click to shoot.
+        The squirrels will come faster and more will come as the game goes on, so be prepared!
+    </p>
+    <p id="score" class="unselectable"></p>
+    <p id="accuracy" class="unselectable"></p>
+    <p id="level" class="unselectable"></p>
+    <p id="best" class="unselectable"></p>
+    <p id="misc" class="unselectable"></p>
+
+    <p id="loser" class=unselectable">
+        You've lost! :( <br>
+        Do you want to restart? <button id="restart">RESTART</button>
+    </p>
+</div>
+</body>
+
+
+<script src="main.js"></script>
+
+</html>
